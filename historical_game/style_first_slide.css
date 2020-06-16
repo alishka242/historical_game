@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.conteiner {
+    width: 1920px;
+    height: 725px;
+    margin: 0 auto;
+}
+
+.first_slide {
+    background-image: url(img/background.png);
+    height: 725px;
+}
+
+.header_backgraund {
+    background-color: #000000;
+    opacity: 0.5;
+    height: 83px;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    padding-top: 13px;
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    padding: 19px 0px;
+}
+
+.logo_top {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 22.36px;
+    padding-bottom: 5px;
+    width: 169px;
+    height: 29px;
+    font-family: "Poppins";
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.63;
+    letter-spacing: 0.36px;
+    text-align: left;
+}
+
+.logo_bottom {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.36px;
+    text-transform: uppercase;
+    width: 171px;
+    height: 12px;
+    font-family: "Poppins";
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 30px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.contacts_icon_phone {
+    width: 17px;
+    height: 25px;
+    padding: 28px 0px 30px 158px;
+}
+
+.contacts_number {
+    padding: 34px 0px 32px 14px;
+    width: 117px;
+    height: 17px;
+    font-size: 17px;
+    line-height: 1.32;
+    letter-spacing: 0.17px;
+    color: #ffffff;
+}
+
+.contact_email {
+    padding: 34px 0px 32px 14px;
+    width: 149 px;
+    height: 17px;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: 0.17px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.contacts_icon_email {
+    width: 25px;
+    height: 19px;
+    padding: 32px 0px 32px 39px;
+}
+
+.start_contacts {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.36px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    position: relative;
+}
+
+.search__input {
+    padding-left: 16px;
+    background: none;
+    width: 202px;
+    height: 36px;
+    border: 1px solid #ffffff;
+    margin: 23px 0px 22px 100px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: 0.17px;
+    text-align: left;
+
+}
+
+.serch_icon {
+    border: 1px solid #ffffff;
+    background: none;
+    position: absolute;
+    top: 23px;
+    right: 0px;
+    height: 38px;
+    width: 50px;
+}
+
+.start_menu {
+    display: flex;
+    justify-content: center;
+    padding: 31px 0px;
+    font-size: 17px;
+    letter-spacing: 0.4px;
+    border-bottom: 1px solid #ffffff;
+    font-weight: normal;
+    font-stretch: condensed;
+    font-style: normal;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu_list {
+    list-style-type: none;
+    padding-right: 32px;
+}
+
+.menu_link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+    line-height: 22.36px;
+    font-weight: bold;
+}
+
+.menu_link:hover{
+    color: #d5d5d5;
+    letter-spacing: 0.36px;
+    border-bottom: 2px solid;
+    padding-bottom: 32px;
+}
+
+.start_nunc_eget {
+    color: #cacaca;
+    font-size: 18px;
+    font-stretch: condensed;
+    font-style: normal;
+    letter-spacing: 0.18px;
+    font-weight: 400;
+    border-bottom: 1px solid #cacaca;
+    line-height: 48px;
+    display: flex;
+    justify-content: center;
+    margin: 134px 906.5px 76px 906.5px;
+}
+
+.start_h1 {
+    font-size: 60px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.8;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 75px;
+}
+
+.icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.icons_list{
+    padding: 0px 6px;
+}
+
+.second_about {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding-top: 81px;
+}
+
+.second_content{
+    float: left;
+}
+
+.content_h1 {
+    color: #f44336;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    padding-bottom: 35px;
+    padding-top: 14px;
+    text-decoration: none;
+}
+
+.about_text {
+    color: #999999;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.12px;
+    width: 454px;
+    height: 203px;
+    padding-right: 33px;
+}
+
+.about_img{
+    height: 338px;
+}
