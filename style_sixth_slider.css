@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     margin-top: 97px;
+    
 }
 
 .sixth_h1 {
@@ -230,4 +231,5 @@
 
 .get_start{
     text-align: right;
+    margin-right: 55px;
 }
