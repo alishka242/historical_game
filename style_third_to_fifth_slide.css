@@ -1,0 +1,210 @@
+.third_services {
+    height: 762px;
+}
+
+.sirvices_h1 {
+    text-align: center;
+    padding: 92px 0px 91px;
+}
+
+.sirvises_price {
+    display: flex;
+    justify-content: center;
+}
+
+.services_link_left,
+.services_link_right {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.services_text_left {
+    color: #999999;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.12px;
+    width: 317px;
+    margin-top: 22px;
+    margin-bottom: 0px 86px;
+}
+
+/*LEFT*/
+.sevices_img_left {
+    display: block;
+
+}
+
+.services_container_left {
+    display: flex;
+    justify-content: center;
+    text-align: right;
+}
+
+.sevices_img_left {
+    height: 28px;
+    width: 28px;
+}
+
+.services_border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #acacac;
+    background: #e1e1e1;
+    border-radius: 50%;
+    width: 102px;
+    height: 102px;
+    margin: 0px 45px 73px 66px;
+}
+
+/*RIGHT*/
+.services_border_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #acacac;
+    background: #e1e1e1;
+    border-radius: 50%;
+    width: 102px;
+    height: 102px;
+    margin: 0px 66px 73px 45px;
+
+}
+
+.services_container_right {
+    display: flex;
+    justify-content: center;
+}
+
+.services_text_right {
+    color: #999999;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.12px;
+    width: 316px;
+    margin-top: 22px;
+}
+
+.services_border_right:hover,
+.services_border:hover {
+    background-color: #f44336
+}
+
+.services_link_left:hover,
+.services_link_right:hover {
+    color: #f44336;
+}
+
+/*FOUTH*/
+.fouth_gallery {
+    height: 889px;
+}
+
+.buy_play {
+    width: 130px;
+    height: 30px;
+    background-color: #f44336;
+    border: 0px
+}
+
+.buy_play:hover {
+    background-color: #a58f8e;
+}
+
+.basket {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.14px;
+}
+
+.gallery_plays {
+    display: flex;
+    justify-content: center;
+}
+
+.plays {
+    margin: 0px 14.5px;
+}
+
+.names_plays {
+    width: 168px;
+    height: 35px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 795;
+    line-height: 23.94px;
+    letter-spacing: -0.9px;
+    margin: 20px 0px 14px 0px;
+}
+
+.block_whith_button {
+    margin: 0px 51px;
+    text-align: center;
+}
+
+/*FIFTH SLIDER*/
+.fifth_testimonial {
+    background-image: url(img/fifth_testimonial/background_fifth.jpg);
+    height: 537px;
+}
+
+.fifth_top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fifth_h1 {
+    margin: 85px 0px 90px;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.fifth_img {
+    margin-bottom: 51px;
+}
+
+.fifth_content {
+    display: flex;
+    justify-content: center;
+}
+
+.fifth_text{
+    text-align: center;
+    width: 935px;
+    margin: 0px 80px;
+}
+
+.fifth_text_game {
+    color: lightgray;
+    font-size: 14.9px;
+    font-weight: 100;
+    line-height: 24px;
+    margin-bottom: 20px;
+    font-stretch: ultra-condensed;
+}
+
+.fifth_name_game {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.fifth_name_game_light{
+    font-stretch: ultra-condensed;
+    color: lightgray;
+}
+
+.fifth_arrow{
+    margin: 9px 0px 0px 0px;
+}

@@ -1,0 +1,233 @@
+.sixth_news {
+    height: 888px;
+}
+
+.sixth_top {
+    display: flex;
+    justify-content: center;
+    margin-top: 97px;
+}
+
+.sixth_h1 {
+    color: #f44336;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 100px;
+}
+
+.sixth_columns {
+    display: flex;
+}
+
+.sixth_left_column {
+    margin-left: 389px;
+}
+
+.dates {
+    margin-left: 56px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+}
+
+.premiere {
+    border-radius: 49px;
+    border: 1px solid #bdbdbd;
+    background-color: #f7f7f7;
+    width: 98px;
+    height: 139px;
+    margin-left: 21px;
+    margin-bottom: 29px;
+}
+
+.premiere_text {
+    margin: 0px 92px 0px 56px;
+    width: 308px;
+}
+
+.sixth_h2 {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-bottom: 32px;
+}
+
+.premiere_date {
+    color: #000000;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 48px;
+    font-family: "ArialNarrow", sans-serif;
+    margin: 32px 35px 0px;
+    width: 29px;
+    height: 29px;
+}
+
+.premiere_mounth_year {
+    color: #9e9e9e;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19px;
+    margin: 12px 35px 38px;
+}
+
+.sixth_h3_left {
+    color: #f44336;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 48px;
+}
+
+.h3_text_left {
+    color: #9e9e9e;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 308px;
+}
+
+.sixth_h2_right {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c5c5c5;
+    height: 48px;
+}
+
+.pointer_text {
+    color: #000000;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 11px;
+    font-stretch: condensed;
+}
+
+.sixth_game_pictures {
+    margin-top: 28px;
+}
+
+.sixth_game_pictures_img {
+    width: 212px;
+    height: 137px;
+}
+
+.sixth_h3_right_name {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 48px;
+    margin-bottom: 9px;
+    margin-top: 15px;
+
+}
+
+.sixth_h3_right {
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    padding: 15px 0px 9px;
+}
+
+.h3_text_right {
+    color: #505050;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 612px;
+    margin: 48px 0px 43px 13px;
+}
+
+.sixth_right_content {
+    margin: 45px 0px 0px 14px;
+}
+
+/* скрываем чекбоксы и блоки с содержанием */
+.hide,
+.hide+label~div {
+    display: none;
+}
+
+/* вид текста label */
+.hide+label {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* вид текста label при активном переключателе */
+.hide:checked+label {
+    border-bottom: 0;
+
+}
+
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked+label+div {
+    display: block;
+    background: #efefef;
+    -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
+
+
+    /* чуточку анимации при появлении */
+    -webkit-animation: fade ease-in 0.5s;
+    -moz-animation: fade ease-in 0.5s;
+    animation: fade ease-in 0.5s;
+}
+
+/* анимация при появлении скрытых блоков */
+@-moz-keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.hide+label:before {
+    color: black;
+    content: "\002B";
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 16px;
+    line-height: 16px;
+    margin: 3px 5px;
+    text-align: center;
+    width: 16px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.hide:checked+label:before {
+    content: "\2212";
+}
+
+.get_start{
+    text-align: right;
+}

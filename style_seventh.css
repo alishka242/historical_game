@@ -1,0 +1,99 @@
+.team {
+    height: 785px;
+}
+
+.our_team {
+    color: #f44336;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.all_percones {
+    display: flex;
+    justify-content: center;
+    margin-top: 61px;
+}
+
+.photo {
+    width: 270px;
+    height: 405px;
+    margin: 0px 15px 26px 15px;
+}
+
+.persone {
+    margin-left: 15px;
+}
+
+.persone_name {
+    color: #f44336;
+    font-size: 24px;
+    font-weight: 750;
+    line-height: 48px;
+}
+
+.persone_post {
+    color: #838383;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 48px;
+}
+
+.icones_img {
+    width: 30px;
+    height: 30px;
+    padding-right: 17px;
+}
+
+/*EIGHTH*/
+
+.eighth_slider {
+    background-image: url(img/eighth/background.jpg);
+    height: 313px;
+}
+
+.eighth_name {
+    text-align: center;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    padding-top: 86px;
+}
+
+.eighth_email {
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+}
+
+.eighth_input {
+    color: #8e8e8e;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    width: 499px;
+    height: 55px;
+    margin-right: 12px;
+    padding-left: 30px;
+    border: 0px;
+    color: #8e8e8e;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+}
+
+.eighth_button {
+    background-color: #f44336;
+    width: 119px;
+    height: 55px;
+    border: 0px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 48px;
+}
+
+.eighth_button:hover{
+    background-color: #b6b6b6;
+}
