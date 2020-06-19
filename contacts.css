@@ -216,3 +216,11 @@ html {
     margin-right: 55px;
 }
 
+.basket {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.14px;
+}
