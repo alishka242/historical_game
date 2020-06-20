@@ -4,15 +4,12 @@
 
 .ninth_contact_us {
     padding: 97px 0px 89px;
-    background-color: #e1e1e1;
-    opacity: 0.9;
 }
 
 .ninth_container {
     display: flex;
     justify-content: center;
-    padding-bottom: 99px;
-    background-color: #e1e1e1;
+    padding-bottom: 49.5px;
     opacity: 0.9;
 
 }
@@ -55,6 +52,7 @@
 
 .ninth_text,
 .ninth_address,
+.ninth_phone,
 .ninth_fax {
     margin-bottom: 24px;
 }
@@ -95,7 +93,7 @@
 }
 
 .ninth_route_map {
-    margin-top: 99px;
+    margin-top: 49.5px;
     margin-bottom: 25px;
 }
 

@@ -1,13 +1,11 @@
 .team {
     height: 785px;
+    background-color: #f7f7f7;
+    padding-top: 98px;
 }
 
 .our_team {
-    color: #f44336;
-    font-size: 36px;
-    line-height: 48px;
     text-align: center;
-    font-weight: 700;
 }
 
 .all_percones {

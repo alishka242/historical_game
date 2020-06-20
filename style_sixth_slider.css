@@ -9,9 +9,6 @@
 }
 
 .sixth_h1 {
-    color: #f44336;
-    font-size: 36px;
-    line-height: 48px;
     margin-bottom: 100px;
 }
 
@@ -118,7 +115,6 @@
     line-height: 48px;
     margin-bottom: 9px;
     margin-top: 15px;
-
 }
 
 .sixth_h3_right {
@@ -229,6 +225,15 @@
 }
 
 .get_start{
-    text-align: right;
     margin-right: 55px;
+    position: absolute;
+    right: 0px;
+    top: 4377px;
+}
+
+.get_start_2{
+    margin-right: 55px;
+    position: absolute;
+    right: 0px;
+    top: 6711px;
 }
