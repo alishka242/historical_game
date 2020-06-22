@@ -27,7 +27,7 @@
 .persone_name {
     color: #f44336;
     font-size: 24px;
-    font-weight: 750;
+    font-weight: 700;
     line-height: 48px;
 }
 
@@ -41,7 +41,11 @@
 .icones_img {
     width: 30px;
     height: 30px;
-    padding-right: 17px;
+    margin-right: 17px;
+}
+
+.icones_img:hover{
+    background-color: #f44336;
 }
 
 /*EIGHTH*/

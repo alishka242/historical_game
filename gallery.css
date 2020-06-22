@@ -33,15 +33,16 @@
     width: 208px;
     border: 1px solid #000000;
     background-color: transparent;
-}
-
-.a_show_more {
     color: #000000;
     font-size: 17px;
-    font-weight: 540;
+    font-weight: 500;
     text-decoration: none;
     font-stretch: semi-condensed;
     letter-spacing: 0.36px;
+}
+
+.button_show_more:hover{
+    background-color: rgb(197, 197, 197);
 }
 
 .gallery_hover {
@@ -59,7 +60,7 @@
     height: 35px;
     color: #000000;
     font-size: 14px;
-    font-weight: 795;
+    font-weight: 800;
     letter-spacing: -0.9px;
     margin: 20px 0px 14px 0px;
 }
@@ -101,7 +102,7 @@
     color: #010101;
     font-size: 18px;
     margin-bottom: 17px;
-    font-weight: 780;
+    font-weight: 700;
 }
 
 .ad_play_name {
