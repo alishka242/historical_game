@@ -10,9 +10,16 @@ html, body {
     margin: 0 auto;
 }
 
+.contant_informattion{
+    flex: 1 0 auto;
+}
+
 .conteiner {
     min-height: 100%;
     position: relative;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .header_backgraund {
@@ -192,7 +199,6 @@ html, body {
 
 .slider_route_map{
     position: relative;
-    margin-bottom: 150px;
 }
 
 .ninth_h1{
