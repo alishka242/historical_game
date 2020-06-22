@@ -1,0 +1,149 @@
+/*.gallery_container{
+    height: 3891px;
+}*/
+
+.plays_in_gallery {
+    margin: 0px 14.5px;
+    height: 481px;
+    font-family: "Roboto", sans-serif;
+}
+
+.sirvices_h1 {
+    padding-top: 174px;
+    padding-bottom: 106px;
+}
+
+.gallery_plays {
+    margin-bottom: 104px;
+}
+
+.gallery_img {
+    width: 270px;
+    height: 378px;
+}
+
+.div_button_show_more {
+    height: 212px;
+    display: flex;
+    justify-content: center;
+}
+
+.button_show_more {
+    height: 38px;
+    width: 208px;
+    border: 1px solid #000000;
+    background-color: transparent;
+}
+
+.a_show_more {
+    color: #000000;
+    font-size: 17px;
+    font-weight: 540;
+    text-decoration: none;
+    font-stretch: semi-condensed;
+    letter-spacing: 0.36px;
+}
+
+.gallery_hover {
+    text-decoration: none;
+}
+
+.gallery_hover:hover {
+    background-color: grey;
+    opacity: 0.7;
+}
+
+.gallery_hover_a{
+    text-decoration: none;
+    width: 168px;
+    height: 35px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 795;
+    letter-spacing: -0.9px;
+    margin: 20px 0px 14px 0px;
+}
+
+.gallery_hover_a:hover{
+    color: grey;
+}
+
+.text_uppercase {
+    text-transform: uppercase;
+}
+
+.slider_ad {
+    display: flex;
+    height: 562px;
+}
+
+.ad {
+    width: 960px;
+    padding: 152px 0px 139px 115px;
+}
+
+.ad_left_background {
+    background-image: url(img/gallery/call_of_duty_1.jpg);
+    width: 960px;
+}
+
+.ad_right_background {
+    background-image: url(img/gallery/MEDAL_OF_HONOR_2.jpg);
+    width: 960px;
+}
+
+.discont {
+    text-transform: uppercase;
+    color: #010101;
+    font-size: 18px;
+    margin-bottom: 17px;
+    font-weight: 780;
+}
+
+.ad_play_name {
+    color: #f44336;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+    width: 336px;
+    height: 72px;
+}
+
+.ad_price {
+    margin: 28px 0px 19px;
+}
+
+.ad_price_left {
+    color: #000000;
+    font-size: 62px;
+}
+
+.ad_price_right {
+    color: #8c8c8c;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48px;
+}
+
+.ad_price_line {
+    text-decoration: line-through;
+}
+
+.ad_buy_basket {
+    width: 265px;
+    height: 62px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.ninth_contact {
+    position: relative;
+    padding-bottom: 174px;
+}
+
+.get_start_2 {
+    position: absolute;
+    right: 0px;
+    margin-right: 54px;
+    margin-top: 152px;
+}
