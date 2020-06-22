@@ -152,6 +152,26 @@
     text-align: center;
 }
 
+.gallery_hover:hover{
+    background-color: grey;
+    opacity: 0.7;
+}
+
+.gallery_hover_a{
+    text-decoration: none;
+    width: 168px;
+    height: 35px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 795;
+    letter-spacing: -0.9px;
+    margin: 20px 0px 14px 0px;
+}
+
+.gallery_hover_a:hover{
+    color: grey;
+}
+
 /*FIFTH SLIDER*/
 .fifth_testimonial {
     background-image: url(img/fifth_testimonial/background_fifth.jpg);

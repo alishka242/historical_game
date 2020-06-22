@@ -1,11 +1,11 @@
 .sixth_news {
-    height: 888px;
+    height: 781px;
+    margin-top: 97px;
 }
 
 .sixth_top {
     display: flex;
     justify-content: center;
-    margin-top: 97px;
 }
 
 .sixth_h1 {
@@ -228,12 +228,12 @@
     margin-right: 55px;
     position: absolute;
     right: 0px;
-    top: 4377px;
+    top: 4270px;
 }
 
 .get_start_2{
     margin-right: 55px;
     position: absolute;
     right: 0px;
-    top: 6711px;
+    top: 6611px;
 }

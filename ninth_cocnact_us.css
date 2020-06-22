@@ -20,6 +20,8 @@
     font-weight: 750;
     line-height: 48px;
     text-align: center;
+    margin-top: 49.5px;
+    margin-bottom: 25px;
 }
 
 .ninth_content_left {
@@ -93,8 +95,7 @@
 }
 
 .ninth_route_map {
-    margin-top: 49.5px;
-    margin-bottom: 25px;
+    
 }
 
 .ninth_map {

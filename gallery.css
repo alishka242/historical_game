@@ -72,6 +72,10 @@
     text-transform: uppercase;
 }
 
+.ninth_container{
+    padding-bottom: 87px;
+}
+
 .slider_ad {
     display: flex;
     height: 562px;

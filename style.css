@@ -190,6 +190,15 @@ html, body {
     text-decoration: none;
 }
 
+.slider_route_map{
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.ninth_h1{
+    padding-bottom: 80px;
+}
+
 .footer {
     background-color: #000000;
     height: 70px;

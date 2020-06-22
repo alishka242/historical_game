@@ -1,9 +1,111 @@
-.fouth_gallery_product {
+.gallery_product {
     height: 684px;
-    background-color: gray;
+    background-color: #e1e1e1;
 }
 
 .sirvices_h1_product {
     text-align: center;
     padding: 49px 0px 80px;
+}
+
+.plays_product {
+    margin: 0px 14.5px;
+    height: 481px;
+    padding-bottom: 30px;
+}
+
+.product_game {
+    display: flex;
+    padding: 174px 475px 178px;
+}
+
+.product_game_img {
+    margin-right: 15px;
+    width: 470px;
+}
+
+.product_game_img_big {
+    margin-bottom: 40px;
+}
+
+.pr_gm_img_b {
+    width: 470px;
+    height: 257px;
+}
+
+.pr_gm_img_medium {
+    width: 120px !important;
+    height: 87px !important;
+    box-shadow: 0 6px 10px rgb(107, 107, 107);
+}
+
+.pr_gm_img_small {
+    margin: 0px 9px;
+    width: 87px;
+    height: 62px;
+}
+
+.product_game_content {
+    margin-left: 15px;
+}
+
+.product_game_h1 {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    padding-bottom: 21px;
+}
+
+.pr_gm_h1_red {
+    color: #f44336;
+}
+
+.pr_gm_price {
+    color: #000000;
+    font-size: 62px;
+    font-weight: 300;
+    line-height: 48.02px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.pr_gm_button {
+    background-color: #f44336;
+    width: 470px;
+    height: 26px;
+    padding: 18px 0px;
+    margin-bottom: 32px;
+}
+
+.pr_gm_button:hover {
+    background-color: #929292;
+}
+
+.pr_gm_a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.pr_gm_text {
+    color: #999999;
+    font-size: 12.65px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.slider_route_map {
+    position: relative;
+}
+
+.get_start_2 {
+    position: absolute;
+    right: 0;
+    margin-right: 54px;
+    margin-top: -83px;
 }
